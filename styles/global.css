@@ -19,7 +19,7 @@
 
     --brand-color-primary: #F7B733;
     --brand-color-secondary: #FC4A1A;
-    --brand-gradient: linear-gradient(to right, var(--brand-color-secondary), var(--brand-color-primary));
+    --brand-gradient: linear-gradient(90deg, var(--brand-color-secondary), var(--brand-color-primary));
 
     --font-family-inter: "Inter", system-ui, serif;
 
@@ -29,6 +29,7 @@
 
     --font-size-sm: .875rem;
     --font-size-base: 1rem;
+    --font-size-md: 1.125rem;
     --font-size-lg: 1.25rem;
     --font-size-xl: 1.5rem;
     --font-size-2xl: 2.5rem;

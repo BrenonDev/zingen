@@ -12,11 +12,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container even-columns">
-            <h2>Lado 1</h2>
-            <h2>Lado 2</h2>
-        </div>
-    </header>
+    <div class="flex gap-1">
+        <a href="#" class="btn btn-sm primary">Label</a>
+        <a href="#" class="btn btn-md primary">Label</a>
+        <button href="#" class="btn btn-lg primary">Label</button>
+    </div>
+    <div class="flex gap-1">
+        <a aria-label="Label" href="#" class="btn btn-sm"></a>
+        <a aria-label="Label" href="#" class="btn btn-md"></a>
+        <button aria-label="Label" href="#" class="btn btn-lg"></button>
+    </div>
 </body>
 </html>
