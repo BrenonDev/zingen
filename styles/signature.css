@@ -1,0 +1,15 @@
+#signature {
+    margin-block: 1rem 2.5rem;
+    text-align: center;
+    
+    & span {
+        font: .875rem "Roboto Mono", monospace;
+        background: var(--surface-color);
+        color: var(--text-color-primary);
+        display: inline-block;
+        padding: .1875rem .4375rem .3125rem;
+        margin-inline: auto;
+        border: 1px solid var(--stroke-color);
+        border-radius: .3125rem;
+    }
+}
