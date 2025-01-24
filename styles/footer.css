@@ -25,7 +25,7 @@ footer {
         color: var(--brand-color-primary);
     }
 
-    .bottom {
+    & .bottom {
         flex-wrap: wrap;
 
         & > div {

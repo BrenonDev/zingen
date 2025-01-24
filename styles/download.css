@@ -11,13 +11,13 @@
         }
     }
 
-    .buttons {
+    & .buttons {
         flex-wrap: wrap;
         margin-top: 2rem;
     }
 
     @media (width >= 80em) {
-        .card {
+        & .card {
             padding: 8.75rem 5rem;
             
             & > div:nth-child(1) {
